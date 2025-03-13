@@ -1,1 +1,11 @@
-a
+palabra = " "
+sub = "a"
+palabra = input("Ingrese una palabra que incluya una al menos una a: ")
+posicion = palabra.find(sub)
+
+if posicion != -1:
+    print(f"La '{sub}' se encuentra en la posición {posicion}.")
+else:
+    print(f"La '{sub}' no se encuentra en la cadena.")
+numa = palabra.count('a', 0, 100)
+print(numa)
