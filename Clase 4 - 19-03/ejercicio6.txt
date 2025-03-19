@@ -1,0 +1,3 @@
+bicis = ["urbana", "ruta", "montaña", "paseo", "hibrida"]
+mensaje = "Mi primera bici fue: "
+print(f"{mensaje} {bicis[3]}")
