@@ -1,0 +1,6 @@
+bandas = []
+bandas.append("queen")
+bandas.append("pink floyd")
+bandas.append("airbag")
+bandas.append("soda stereo")
+print(bandas)
