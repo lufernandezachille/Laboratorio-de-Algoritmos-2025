@@ -1,0 +1,39 @@
+color_alien = "verde"
+if color_alien == "verde" :
+    print("Acabas de ganar 5 puntos!")
+elif color_alien == "amarillo":
+    print("Acabas de ganar 10 puntos!")
+elif color_alien == "rojo":
+    print("Acabas de ganar 15 puntos!")
+else :
+    print("No ganaste ningún punto.")
+
+color_alien = "amarillo"
+if color_alien == "verde" :
+    print("Acabas de ganar 5 puntos!")
+elif color_alien == "amarillo":
+    print("Acabas de ganar 10 puntos!")
+elif color_alien == "rojo":
+    print("Acabas de ganar 15 puntos!")
+else :
+    print("No ganaste ningún punto.")
+
+color_alien = "rojo"
+if color_alien == "verde" :
+    print("Acabas de ganar 5 puntos!")
+elif color_alien == "amarillo":
+    print("Acabas de ganar 10 puntos!")
+elif color_alien == "rojo":
+    print("Acabas de ganar 15 puntos!")
+else :
+    print("No ganaste ningún punto.")
+
+color_alien = "violeta"
+if color_alien == "verde" :
+    print("Acabas de ganar 5 puntos!")
+elif color_alien == "amarillo":
+    print("Acabas de ganar 10 puntos!")
+elif color_alien == "rojo":
+    print("Acabas de ganar 15 puntos!")
+else :
+    print("No ganaste ningún punto.")
