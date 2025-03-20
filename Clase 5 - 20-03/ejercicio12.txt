@@ -1,0 +1,10 @@
+pizzas = ["muzzarella", "napolitana", "cebolla"]
+for i in pizzas:
+    print("Me gusta la pizza", i, ".")
+print("Me encanta la pizza!")
+pizzas_amigo = pizzas[:]
+pizzas.append("pepperoni")
+for i in pizzas:
+    print("Mis pizzas favoritas son:", i)
+for i in pizzas_amigo:
+    print("Las pizzas favoritas de mi amigo son:", i)
