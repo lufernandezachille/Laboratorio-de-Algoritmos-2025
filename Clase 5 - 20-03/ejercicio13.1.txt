@@ -1,0 +1,7 @@
+color_alien = "verde"
+if color_alien == "verde" :
+    print("Acabas de ganar 5 puntos!")
+
+color_alien = "amarillo"
+if color_alien == "verde" :
+    print("Acabas de ganar 5 puntos!")
