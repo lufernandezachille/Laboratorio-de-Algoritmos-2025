@@ -1,0 +1,6 @@
+personas = ["Freddie Mercury","Brian May", "Roger Taylor", "John Deacon"]
+print("Holaa, venís a cenar, ", personas[0], "?")
+print("Holaa, venís a cenar, ", personas[1], "?")
+print("Holaa, venís a cenar, ", personas[2], "?")
+print("Holaa, venís a cenar, ", personas[3], "?")
+print(len(personas))

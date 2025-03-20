@@ -1,0 +1,4 @@
+pizzas = ["muzzarella", "napolitana", "cebolla"]
+for i in pizzas:
+    print("Me gusta la pizza", i, ".")
+print("Me encanta la pizza!")
