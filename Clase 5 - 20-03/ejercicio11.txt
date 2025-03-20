@@ -1,0 +1,5 @@
+numero = 0
+numeros = [n* 1 for n in range(1,1000001)]
+print(min(numeros))
+print(max(numeros))
+print(sum(numeros))
