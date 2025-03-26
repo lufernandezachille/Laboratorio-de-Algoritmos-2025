@@ -1,0 +1,19 @@
+informacion_kira = {
+    'tipo de animal' : 'perro caniche',
+    'nombre del dueño' : 'franquito'
+}
+
+informacion_zoe = {
+    'tipo de animal' : 'perro caniche',
+    'nombre del dueño' : 'franquito'
+}
+
+informacion_zeus = {
+    'tipo de animal' : 'perro',
+    'nombre del dueño' : 'theo'
+}
+
+mascotas = [informacion_kira, informacion_zoe, informacion_zeus]
+
+for mascota in mascotas :
+    print(mascota)

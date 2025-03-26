@@ -1,0 +1,8 @@
+lugares_favoritos = {
+    'feli' : 'misiones ' 'la pampa ' 'canada',
+    'lu' : 'mi cama ' 'uruguay ' 'polonia',
+    'juli' : 'italia ' 'francia ' 'reino unido'
+}
+
+for key, value in lugares_favoritos.items() :
+    print(key, ":", value)

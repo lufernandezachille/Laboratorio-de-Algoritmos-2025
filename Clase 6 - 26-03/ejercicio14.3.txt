@@ -1,0 +1,15 @@
+usuarios_actuales = ["admin", "feli", "mirna", "pelado", "franquito"]
+usuarios_nuevos = ["juli", "barba", "quinte", "pelado", "franquito"]
+usuarios_nuevos_min = ["","","","",""]
+usuarios_actuales_min = ["","","","",""]
+for i in range(5) :
+    usuarios_nuevos_min[i] = usuarios_nuevos[i].lower()
+
+for i in range(5) :
+    usuarios_actuales_min[i] = usuarios_actuales[i].lower()
+
+for usuario in usuarios_nuevos_min :
+    if usuario == usuarios_actuales_min[0] or usuario == usuarios_actuales_min[1] or usuario == usuarios_actuales_min[2] or usuario == usuarios_actuales_min[3] or usuario == usuarios_actuales_min[4] :
+        print("El usuario", usuario, "ya existe. Tendrás que elegir otro nombre.")
+    else :
+        print("el usuario", usuario, "está disponible.")

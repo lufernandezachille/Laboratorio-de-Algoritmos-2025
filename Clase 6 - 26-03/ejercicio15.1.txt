@@ -1,0 +1,7 @@
+informacion_feli = {
+    'nombre' : 'Maia Felicitas',
+    'apellido' : 'Lorenzo',
+    'edad' : '15',
+    'ciudad' : 'caba'
+}
+print(informacion_feli)

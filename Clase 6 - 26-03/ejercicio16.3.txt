@@ -1,0 +1,10 @@
+lenguajes_favoritos = {'Juan': 'python', 'Sara': 'c', 'Eduardo': 'rust', 'Agustina': 'c#'}
+personas = ["Juan", "Juli", "Eduardo", "Lu"]
+personas_antes = ["Juan", "Sara", "Eduardo", "Agustina"]
+i = 0
+
+for persona in personas :
+    if persona == personas_antes[0] or persona == personas_antes[1] or persona == personas_antes[2] or persona == personas_antes[3]:
+        print("Gracias,", persona, ". Ya respondiste la encuesta.")
+    else :
+        print(persona, ", todavía no contestaste. Estás invitado a participar en la encuesta.")

@@ -1,0 +1,17 @@
+glosario = {
+    'string' : 'Un string es una serie de caracteres (una cadena de letras).',
+    'integer' : 'Integers (enteros)',
+    'lista' : 'Una lista es una colección de items en un orden particular.',
+    'tupla' : 'Una tupla no es más que una lista “inmutable”.',
+    'diccionario' : 'En Python un diccionario es una colección de pares key-value (llave y valor, respectivamente)',
+    'lenguaje de programación' : 'Un conjunto de reglas y símbolos que permiten a las personas comunicarse con las computadoras.',
+    'float' : 'Cualquier número con un decimal es un float.',
+    'variable' : 'Un espacio en la memoria de una computadora que se utiliza para almacenar información.',
+    'constante' : 'Una constante es una variable cuyo valor se mantiene igual a través de la vida o ejecución del programa.',
+    'The Zen of Python' : 'La filosofía de la comunidad de Python para escribir buen código.'
+
+}
+
+for key, value in glosario.items():
+    print(f"\nKey: {key}")
+    print(f"Value: {value}")

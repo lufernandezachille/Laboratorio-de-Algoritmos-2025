@@ -1,0 +1,25 @@
+informacion_feli = {
+    'nombre' : 'Maia Felicitas',
+    'apellido' : 'Lorenzo',
+    'edad' : '15',
+    'ciudad' : 'caba'
+}
+
+informacion_juli = {
+    'nombre' : 'Julieta',
+    'apellido' : 'Rossney',
+    'edad' : '16',
+    'ciudad' : 'caba'
+}
+
+informacion_lu = {
+    'nombre' : 'Lucila',
+    'apellido' : 'Fernandez Achille',
+    'edad' : '16',
+    'ciudad' : 'caba'
+}
+
+personas = [informacion_feli, informacion_juli, informacion_lu]
+
+for persona in personas :
+    print(persona)

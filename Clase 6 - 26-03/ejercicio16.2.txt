@@ -1,0 +1,14 @@
+rios = {
+    'nilo' : 'egipto',
+    'mississippi' : 'eeuu',
+    'yangtsé' : 'china'
+}
+
+for key, value in rios.items():
+    print(f"\nEl rio  {key} está en {value}")
+    
+for key in rios.items():
+    print(key)
+
+for value in rios.items():
+    print(value)

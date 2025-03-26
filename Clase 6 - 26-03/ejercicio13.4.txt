@@ -1,0 +1,15 @@
+edad = input("ingrese su edad: ")
+if edad < 2 :
+    print("Sos un bebé.")
+elif edad >= 2 and edad < 4 : 
+    print("Sos un nene/a chiquito/a.")
+elif edad >= 4 and edad < 13 :
+    print("Sos un nene/a.")
+elif edad >= 13 and edad < 20 :
+    print("Sos un adolescente.")
+elif edad >= 20 and edad < 65 :
+    print("Sos un adulto.")
+elif edad >= 65 :
+    print("Sos un adulto mayor.")
+else :
+    print("Valor no válido.")

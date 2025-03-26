@@ -1,0 +1,7 @@
+numeros_favoritos = {
+    'lu' : '7',
+    'juli' : '7',
+    'quinte' : '25',
+    'barba' : '17'
+}
+print(numeros_favoritos)

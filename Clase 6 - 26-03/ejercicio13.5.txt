@@ -1,0 +1,36 @@
+frutas_favoritas = ["manzana", "melon", "arandano"]
+i = 0
+fruta = "manzana"
+for i in range(3) :
+    if fruta == frutas_favoritas[i] :
+        print("¡Te re copa la", fruta)
+    else : 
+        print("No te gusta", fruta)
+
+fruta = "melon"
+for i in range(3) :
+    if fruta == frutas_favoritas[i] :
+        print("¡Te re copa la", fruta)
+    else : 
+        print("No te gusta", fruta)
+
+fruta = "arandano"
+for i in range(3) :
+    if fruta == frutas_favoritas[i] :
+        print("¡Te re copa la", fruta)
+    else : 
+        print("No te gusta", fruta)
+
+fruta = "banana"
+for i in range(3) :
+    if fruta == frutas_favoritas[i] :
+        print("¡Te re copa la", fruta)
+    else : 
+        print("No te gusta", fruta)
+
+fruta = "durazno"
+for i in range(3) :
+    if fruta == frutas_favoritas[i] :
+        print("¡Te re copa la", fruta)
+    else : 
+        print("No te gusta", fruta)
