@@ -1,0 +1,16 @@
+pedidos_sandwiches = ["milanesa", "pastron", "vegano", "pastron", "hamburguesa", "pastron"]
+sandwiches_terminados = []
+
+print("La sandwichería se quedó sin pastrón.")
+
+while 'pastron' in pedidos_sandwiches:
+    pedidos_sandwiches.remove('pastron')
+print(pedidos_sandwiches)
+
+while pedidos_sandwiches:
+    sandwich_actual = pedidos_sandwiches.pop()
+    print(f"Preparando sandwich: {sandwich_actual.title()}")
+    sandwiches_terminados.append(sandwich_actual)
+    print("\nLos siguientes sandwiches han sido terminados: :")
+    for sandwich_terminado in sandwiches_terminados:
+        print(sandwich_terminado.title())

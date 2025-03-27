@@ -1,0 +1,18 @@
+ciudades = {
+    'pompeya' : {
+        'pais' : 'italia',
+        'poblacion' : '25 358 hab',
+        'dato interesante' : 'erupcion del vesubio'},
+    'auschwitz' : {
+        'pais' : 'polonia',
+        'poblacion' : '40 324 hab',
+        'dato interesante' : 'el campo de concentracion mas grande'},
+    'roma' : {
+        'pais' : 'italia',
+        'poblacion' : '2 857 321 hab',
+        'dato interesante' : 'coliseo'},
+
+}
+
+for key, value in ciudades.items() :
+    print(key, ":", value)

@@ -1,0 +1,6 @@
+def hacer_camiseta(size= 'grande', texto= 'Me encanta Python') :
+    print(f"La camiseta va a ser tamaño {size} y va a decir {texto.title()}")
+
+hacer_camiseta()
+hacer_camiseta(size= 'mediano')
+hacer_camiseta(size= 'chico', texto= 'holaa')

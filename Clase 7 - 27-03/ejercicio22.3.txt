@@ -1,0 +1,6 @@
+def describir_ciudad(ciudad = 'la plata', pais = 'argentina') :
+    print(f"{ciudad.title()} está en {pais.title()}")
+
+describir_ciudad()
+describir_ciudad('pompeya','italia')
+describir_ciudad(ciudad= 'auschwitz', pais= 'polonia')

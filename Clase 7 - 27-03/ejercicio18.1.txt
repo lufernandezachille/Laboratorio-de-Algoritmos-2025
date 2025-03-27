@@ -1,0 +1,5 @@
+cantidad_personas = input("ingrese la cantidad de personas que van a cenar: ")
+if cantidad_personas > 8 :
+    print("van a tener que esperar para una mesa.")
+else :
+    print("su mesa está lista.")

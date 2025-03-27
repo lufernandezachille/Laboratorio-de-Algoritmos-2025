@@ -1,0 +1,5 @@
+numero = input("ingrese un numero: ")
+if numero % 10 == 0 :
+    print(numero, "es múltiplo de 10.")
+else:
+    print(numero, "no es múltiplo de 10.")

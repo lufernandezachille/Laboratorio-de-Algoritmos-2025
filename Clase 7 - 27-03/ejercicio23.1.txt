@@ -1,0 +1,6 @@
+def ciudad_pais(ciudad, pais) :
+    print(f"{ciudad.title()} , {pais.title()}")
+
+ciudad_pais('roma', 'italia')
+ciudad_pais('pompeya','italia')
+ciudad_pais('auschwitz', 'polonia')

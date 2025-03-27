@@ -1,0 +1,15 @@
+respuesta = ""
+def hacer_album(artista, titulo, cantidad_canciones=None):
+    album = {'artista': artista, 'titulo': titulo}
+    if cantidad_canciones :
+        album['cantidad_canciones'] = cantidad_canciones
+    return album
+
+while respuesta != "salir" :
+    artista = input("ingrese el nombre del artista: ")
+    titulo = input("ingrese el titulo del album: ")
+    cantidad_canciones = input("ingrese la cantidad de canciones del album: ")
+    respuesta = ("ingrese 'salir' si quiere salir.")
+    disco_1 = hacer_album(artista, titulo, cantidad_canciones)
+    print(disco_1)
+

@@ -1,0 +1,13 @@
+mensaje = "\nPor favor, ingrese su edad para saber cuanto cuesta su entrada: "
+mensaje += "\n(Escribí 'salir' cuando termines.) "
+
+while True:
+    edad = input(mensaje)
+    if edad == 'salir':
+        break
+    elif edad < 3:
+        print(f"La entrada si tenés {edad.title()} es gratis.")
+    elif edad >= 3 and edad <= 12 :
+        print(f"La entrada si tenés {edad.title()} es $10.")
+    elif edad > 12 :
+        print(f"La entrada si tenés {edad.title()} es $15.")

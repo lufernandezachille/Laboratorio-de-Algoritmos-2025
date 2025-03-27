@@ -1,0 +1,10 @@
+pedidos_sandwiches = ["milanesa", "suprema", "vegano", "hamburguesa"]
+sandwiches_terminados = []
+
+while pedidos_sandwiches:
+    sandwich_actual = pedidos_sandwiches.pop()
+    print(f"Preparando sandwich: {sandwich_actual.title()}")
+    sandwiches_terminados.append(sandwich_actual)
+    print("\nLos siguientes sandwiches han sido terminados: :")
+    for sandwich_terminado in sandwiches_terminados:
+        print(sandwich_terminado.title())

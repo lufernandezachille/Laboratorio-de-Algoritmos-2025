@@ -1,0 +1,9 @@
+mensaje = "\nPor favor, ingresá los ingredientes de una pizza:"
+mensaje += "\n(Escribí 'salir' cuando termines.) "
+
+while True:
+    ingrediente = input(mensaje)
+    if ingrediente == 'salir':
+        break
+    else:
+        print(f"Se va a agregar {ingrediente.title()} a su pizza.")
