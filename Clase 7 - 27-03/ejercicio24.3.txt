@@ -1,0 +1,12 @@
+mensajes_cortos = ["Hola.", "Qué tal?", "Todo bien?"]
+mensajes_enviados = []
+mensajes_cortos_copia = mensajes_cortos[:]
+def enviar_mensajes() :
+    while mensajes_cortos_copia:
+        mensaje = mensajes_cortos_copia.pop()
+        print(f"Enviando mensaje: {mensaje.title()}")
+        mensajes_enviados.append(mensaje)
+
+enviar_mensajes()
+print(mensajes_cortos)
+print(mensajes_enviados)

@@ -1,0 +1,6 @@
+mensajes_cortos = ["Hola.", "Qué tal?", "Todo bien?"]
+
+def mostrar_mensajes() :
+    for mensaje in mensajes_cortos:
+	print(mensaje)
+mostrar_mensajes()        

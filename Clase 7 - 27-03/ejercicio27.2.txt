@@ -1,0 +1,28 @@
+class Restaurante:
+    def __init__(self, nombre_restaurante, tipo_cocina):
+        self.nombre_restaurante = nombre_restaurante
+        self.tipo_cocina = tipo_cocina
+    def describir_restaurante(self):
+        print(f"El restaurante se llama {self.nombre_restaurante} Y la cocina es {self.tipo_cocina}.")
+    def abrir_restaurante(self):
+        """Simula que el perro se acuesta panza arriba cuando se lo ordenás."""
+        print(f"{self.nombre_restaurante} está abierto.")
+
+
+restaurante = Restaurante("Los campeones", "argentina")
+print(f"El restaurante se llama {restaurante.nombre_restaurante}.")
+print(f"El tipo de cocina es {restaurante.tipo_cocina}.")
+restaurante.describir_restaurante()
+restaurante.abrir_restaurante()
+
+restaurante = Restaurante("mcdonalds", "americana")
+print(f"El restaurante se llama {restaurante.nombre_restaurante}.")
+print(f"El tipo de cocina es {restaurante.tipo_cocina}.")
+restaurante.describir_restaurante()
+restaurante.abrir_restaurante()
+
+restaurante = Restaurante("i love pizza", "italiana")
+print(f"El restaurante se llama {restaurante.nombre_restaurante}.")
+print(f"El tipo de cocina es {restaurante.tipo_cocina}.")
+restaurante.describir_restaurante()
+restaurante.abrir_restaurante()

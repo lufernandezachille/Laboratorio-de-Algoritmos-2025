@@ -1,0 +1,7 @@
+def hacer_sandwich(*ingredientes):
+    print("\nEscibe los ingredientes de tu sandwich:")
+    for ingredientes in ingredientes:
+        print(f"- {ingredientes}")
+hacer_sandwich('milanesa')
+hacer_sandwich('jamón', 'queso')
+hacer_sandwich('pollo', 'lechuga', 'tomate')

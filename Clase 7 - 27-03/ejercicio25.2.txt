@@ -1,0 +1,10 @@
+def construir_perfil(nombre, apellido, **info_usuario):
+    info_usuario['nombre'] = nombre
+    info_usuario['apellido'] = apellido
+    return info_usuario
+perfil_usuario = construir_perfil(nombre= 'lucila', apellido= 'fernandez achille',
+                                  edad='16',
+                                  barrio='barracas',
+                                  altura= '156cm')
+print(perfil_usuario)
+

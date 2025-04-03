@@ -1,0 +1,23 @@
+class Usuario:
+    def __init__(self, nombre, apellido, mail, alias):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.mail = mail
+        self.alias = alias
+    def describir_usuario(self):
+        print(f"El nombre del usuario es {self.nombre} {self.apellido}, su mail es {self.mail} y su alias es {self.alias}.")
+    def saludar_usuario(self):
+        print(f"Hola, {self.alias}.")
+
+
+usuario_1 = Usuario("Lucila", "Fernandez Achille", "lfernandezachille@alumno.huergo.edu.ar", "Lu")
+usuario_1.describir_usuario()
+usuario_1.saludar_usuario()
+
+usuario_1 = Usuario("Julieta", "Rossney", "jrossney@alumno.huergo.edu.ar", "Juli")
+usuario_1.describir_usuario()
+usuario_1.saludar_usuario()
+
+usuario_1 = Usuario("Felicitas", "Lorenzo", "mlorenzo@alumno.huergo.edu.ar", "Feli")
+usuario_1.describir_usuario()
+usuario_1.saludar_usuario()

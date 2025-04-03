@@ -1,0 +1,19 @@
+import printing_functions
+
+diseños_no_imprimidos = ['funda de teléfono', 'colgante de robot', 'dodecaedro']
+modelos_completados = []
+
+printing_functions.imprimir_modelos(diseños_no_imprimidos, modelos_completados)
+printing_functions.mostrar_modelos_completados(modelos_completados)
+
+from printing_functions import imprimir_modelos
+imprimir_modelos(diseños_no_imprimidos, modelos_completados)
+
+from printing_functions import imprimir_modelos as im
+modelos = im(diseños_no_imprimidos, modelos_completados)
+
+import printing_functions as pf
+pf.imprimir_modelos(diseños_no_imprimidos, modelos_completados)
+
+from printing_functions import *
+imprimir_modelos(diseños_no_imprimidos, modelos_completados)

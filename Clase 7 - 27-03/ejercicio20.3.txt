@@ -3,10 +3,10 @@ encuesta_activa = True
 while encuesta_activa:
     nombre = input("\nIngresa tu usuario: ")
     lugar = input("Si pudieras visitar un lugar en el mundo, ¿a dónde irías? :")
-    lugares[usuario_1] = lugar
+    lugares[nombre] = lugar
     repetir = input("¿Querés dejar que otra persona responda? (sí/no) ")
     if repetir.lower() == 'no':
         encuesta_activa = False
 print("\n--- Resultados de la encuesta ---")
-for nombre, respuesta in respuestas.items():
+for nombre, respuesta in lugares.items():
     print(f"{nombre} quiere ir a {lugar}.")

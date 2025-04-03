@@ -1,0 +1,9 @@
+def hacer_auto(fabricante, modelo, **info_auto):
+    info_auto['fabricante'] = fabricante
+    info_auto['modelo'] = modelo
+    return info_auto
+perfil_auto = hacer_auto(fabricante= 'toyota', modelo= 'corolla',
+                                  color='rojo',
+                                  ventanas= 'polarizadas')
+print(perfil_auto)
+

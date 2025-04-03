@@ -9,7 +9,6 @@ while respuesta != "salir" :
     artista = input("ingrese el nombre del artista: ")
     titulo = input("ingrese el titulo del album: ")
     cantidad_canciones = input("ingrese la cantidad de canciones del album: ")
-    respuesta = ("ingrese 'salir' si quiere salir.")
     disco_1 = hacer_album(artista, titulo, cantidad_canciones)
     print(disco_1)
-
+    respuesta = input("ingrese 'salir' si quiere salir.")
