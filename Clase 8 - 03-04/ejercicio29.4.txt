@@ -1,0 +1,44 @@
+class Auto:
+    def __init__(self, marca, modelo, año):
+        self.marca = marca
+        self.modelo = modelo
+        self.año = año
+        self.kilometraje = 0 
+
+
+class Bateria:
+    def __init__(self, capacidad_bateria=40):
+        self.capacidad_bateria = capacidad_bateria
+        self.tamano_bateria = 'medio'
+    def describir_bateria(self):
+        print(f"Este auto tiene una batería de {self.capacidad_bateria} kWh.")
+    def obtener_autonomia(self):
+        if self.capacidad_bateria == 40:
+                print("El rango es 150.")
+                rango = 150
+        elif self.capacidad_bateria == 65:
+                print("El rango es 225")
+                rango = 225
+    def actualizar_bateria(self) :
+        if self.tamano_bateria == 'chico':
+            print(f"El tamaño de la batería es {self.tamano_bateria}")
+            self.capacidad_bateria = 65
+            print(f"La capacidad de la batería es {self.capacidad_bateria}")
+        elif self.tamano_bateria == 'medio':
+            print(f"El tamaño de la batería es {self.tamano_bateria}")
+            self.capacidad_bateria = 65
+            print(f"La capacidad de la batería es {self.capacidad_bateria}")
+        elif self.tamano_bateria == 'grande':
+            print(f"El tamaño de la batería es {self.tamano_bateria}")
+            self.capacidad_bateria = 65
+            print(f"La capacidad de la batería es {self.capacidad_bateria}")
+
+class AutoElectrico(Auto):
+    def __init__(self, marca, modelo, año):
+        super().__init__(marca, modelo, año)
+        self.bateria = Bateria()
+
+mi_leaf = Bateria()
+mi_leaf.obtener_autonomia()
+mi_leaf.actualizar_bateria()
+mi_leaf.obtener_autonomia()

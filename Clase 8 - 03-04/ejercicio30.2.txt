@@ -1,0 +1,9 @@
+from importar_clases_2 import Usuario
+from importar_clases_2 import Administrador
+from importar_clases_2 import Privilegio
+
+administrador = Administrador("Lucila", "Fernandez Achille", "lfernandezachille@alumno.huergo.edu.ar", "Lu")
+administrador.describir_usuario()
+administrador.saludar_usuario()
+privilegio = Privilegio()
+privilegio.mostrar_privilegios()

@@ -1,0 +1,22 @@
+import random
+class Dice:
+    def __init__(self):
+        self.sides = 6
+    def tirar_dado(self):
+        numero = random.randint(1, self.sides + 1)
+        print(f"Salió el {numero} y el dado tiene {self.sides} caras.")
+
+
+dado_6 = Dice()
+for i in range(10) :
+    dado_6.tirar_dado()
+
+dado_10 = Dice()
+dado_10.sides = 10
+for i in range(10) :
+    dado_10.tirar_dado()
+
+dado_20 = Dice()
+dado_20.sides = 20
+for i in range(10) :
+    dado_20.tirar_dado()
