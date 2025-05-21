@@ -1,0 +1,9 @@
+from pathlib import Path
+import json
+
+def decir_numero_favorito():
+    path = Path('numero_favorito.json')
+    numero = obtener_usuario_guardado(path)
+    print(f"Tu número favorito es {numero}")
+
+decir_numero_favorito()

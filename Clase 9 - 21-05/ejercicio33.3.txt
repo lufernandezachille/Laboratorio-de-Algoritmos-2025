@@ -1,0 +1,9 @@
+print("Dame dos números y los voy a sumar.")
+primer_numero = input("\nPrimer número: ")
+segundo_numero = input("Segundo número: ")
+try:
+    resultado = int(primer_numero) + int(segundo_numero)
+except ValueError:
+    print("Se ingresó una letra, no un número.")
+else:
+    print(f"El resultado es: {resultado}")

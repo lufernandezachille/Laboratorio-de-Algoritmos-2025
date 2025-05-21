@@ -1,0 +1,12 @@
+from pathlib import Path
+ruta1 = Path('gatos.txt')
+ruta2 = Path('perros.txt')
+try:
+    contenido1 = ruta1.read_text()
+    contenido2 = ruta2.read_text()
+except FileNotFoundError:
+    print(f"Perdón, el archivo {ruta1} no existe.")
+    print(f"Perdón, el archivo {ruta1} no existe.")
+else:
+    print(f"Gatos: {contenido1}")
+    print(f"Gatos: {contenido2}")

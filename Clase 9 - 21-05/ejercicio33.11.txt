@@ -1,0 +1,40 @@
+from pathlib import Path
+import json
+
+respuestas = {}
+def obtener_usuario_guardado(path):
+    if path.exists():
+        contenido = path.read_text()
+        respuestas = json.loads(contenido)
+        return respuestas
+    else:
+        return None
+
+def obtener_nuevo_usuario(path):
+    username= input("¿Cómo te llamás? ")
+    edad = input("¿Cuántos años tenés? ")
+    ciudad = input("¿De qué ciudad sos? ")
+    respuestas["nombre: "] = username
+    respuestas["edad: "] = edad
+    respuestas["ciudad: "] = ciudad
+    
+    contenido = json.dumps(respuestas)
+    path.write_text(contenido)
+    return respuestas
+
+def saludar_usuario():
+    path = Path('username.json')
+    respuestas = obtener_usuario_guardado(path)
+    if respuestas:
+        print(f"¡Bienvenido de nuevo, {respuestas}!")
+    else:
+        username= obtener_nuevo_usuario(path)
+        print(f"Te vamos a recordar cuando vuelvas, {respuestas}.")
+
+obtener_usuario_guardado()
+pregunta = input(f"{respuestas} es su usuario? (s para decir que sí.)")
+if pregunta == "s":
+    saludar_usuario()
+else:
+    obtener_nuevo_usuario()
+    saludar_usuario()
